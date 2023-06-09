@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/studymath" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/white"
+            android:text="ADDITION"
+            android:textColor="#0B0B0B"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            android:text="SUBTRACTION"
+            android:textColor="#0B0B0B"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btnMul"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            android:text="MULTIFLICATION"
+            android:textColor="#0B0B0B"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
